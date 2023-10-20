@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 995px;
+    background-image: url(../img/section.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.section__inner,
+.section__flex{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.section__logo{
+    margin-top: 45px;
+    width: 130.977px;
+    height: 40px;
+}
+
+.section__menu ul,
+.section__menu
+{
+    display: flex;
+
+}
+a{
+    text-decoration: none;
+}
+.section__menu ul li{
+    margin-right: 40px;
+    margin-top: 32px;
+    color: #fff;
+    font-size: 15px;
+    list-style: none;
+}
+.section__btn button{
+    border-radius: 100px;
+    border: 2px solid var(--project-main-accent, #FFD703);
+    width: 166px;
+    height: 48px;
+    color: #FFD703;
+    background: linear-gradient(180deg, #006977 -36.24%, rgba(0, 54, 62, 0.00) 93.93%);
+    margin-top: 31px;
+}
+.section__name{
+    color: var(--project-text-heading-light, #F4F4F4);
+    font-size: 42px; 
+}
+.section__text p{
+    color: var(--project-text-body-text-light, #CEFFFD);
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 72px;
+    display: block;
+}
+.section__click button{
+    background: var(--project-main-accent, #FFD703);
+    border-radius: 100px;
+    text-align: center;
+    width: 300px;
+    height: 79px;
+    border: none;
+}
